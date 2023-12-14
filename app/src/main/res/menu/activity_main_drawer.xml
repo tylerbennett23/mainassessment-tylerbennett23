@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <item
+            android:id="@+id/book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@android:drawable/arrow_down_float"
+            android:title="Book"
+            tools:ignore="HardcodedText" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/reviewbtn"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Reviews"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Settings"
+            tools:ignore="HardcodedText" />
+    </group>
+</menu>
